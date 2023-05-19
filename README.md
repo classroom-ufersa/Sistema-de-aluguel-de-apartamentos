@@ -1,33 +1,33 @@
-Sistema de Aluguel de Apartamentos
+# Sistema de Aluguel de Apartamentos
 
 Este projeto consiste em um sistema de aluguel de apartamentos desenvolvido em linguagem C. O objetivo do sistema é facilitar a gestão de informações sobre apartamentos e inquilinos, oferecendo funcionalidades como adicionar inquilinos, excluir inquilinos, listar inquilinos, buscar inquilinos, editar informações de inquilinos, consultar apartamentos disponíveis, consultar o quantitativo de inquilinos e sair do sistema.
 
-Conceitos Utilizados:
+# Conceitos Utilizados:
 
 O sistema foi implementado utilizando diversos conceitos da linguagem C, como ponteiros, alocação dinâmica de memória e structs. Além disso, foi adotada a estrutura de dados de listas encadeadas simples para armazenar as informações dos inquilinos.
 
-Estrutura de Dados:
+# Estrutura de Dados:
 
-A estrutura "Apartamento" possui os seguintes campos:
+## A estrutura "Apartamento" possui os seguintes campos:
 
 Número do apartamento,
 Disponibilidade do apartamento (indicando se está alugado ou vago),
 Valor do aluguel,
 Localização,
-Inquilino associado ao apartamento (caso esteja alugado)
+Inquilino associado ao apartamento (caso esteja alugado).
 
-A estrutura "Inquilino" é composta pelos seguintes campos:
+## A estrutura "Inquilino" é composta pelos seguintes campos:
 
 Nome,
 RG,
 CPF,
 Data de entrada ou início do contrato,
 Data de saída ou fim do contrato,
-Número do apartamento alugado,
+Número do apartamento alugado.
 
-Funcionalidades do Sistema:
+# Funcionalidades do Sistema:
 
-O sistema oferece as seguintes funcionalidades:
+## O sistema oferece as seguintes funcionalidades:
 
 Adicionar Inquilino: Permite cadastrar as informações de um novo inquilino e associá-lo a um apartamento disponível.
 
@@ -45,7 +45,7 @@ Consultar Quantitativo de Inquilinos: Exibe o número total de inquilinos cadast
 
 Sair: Encerra a execução do programa.
 
-Tecnologias Utilizadas:
+# Tecnologias Utilizadas:
 
 O projeto foi desenvolvido em linguagem C, utilizando os seguintes conceitos e recursos:
 
@@ -59,7 +59,7 @@ Arquivos: Os dados dos inquilinos e apartamentos são armazenados em arquivos, p
 
 Listas Encadeadas Simples: As listas encadeadas foram empregadas para gerenciar os inquilinos e permitir a manipulação eficiente dos dados, como adicionar, excluir e buscar inquilinos.
 
-Uso de Listas Encadeadas Simples:
+# Uso de Listas Encadeadas Simples:
 
 No sistema de aluguel de apartamentos, optou-se por utilizar listas encadeadas simples para armazenar os dados dos inquilinos. Essa escolha se deu pelas seguintes razões:
 
@@ -69,22 +69,22 @@ Flexibilidade: Com as listas encadeadas simples, é possível adicionar ou remov
 
 Busca por Nome: A estrutura de listas encadeadas permite a busca eficiente de inquilinos pelo nome, percorrendo os elementos sequencialmente até encontrar o nome desejado.
 
-Por que não utilizar Pilhas e Filas?
+# Por que não utilizar Pilhas e Filas?
 
 Embora pilhas e filas sejam estruturas de dados úteis em muitos cenários, para este sistema de aluguel de apartamentos, as listas encadeadas simples foram escolhidas devido à necessidade de realizar operações de busca eficiente por nome e manipulação flexível dos inquilinos. Pilhas e filas não seriam tão adequadas nesse contexto, pois não oferecem a mesma facilidade de acesso aleatório aos elementos.
 
-Como Contribuir:
+# Como Contribuir:
 
 Se você deseja contribuir para o projeto, siga as etapas abaixo:
 
-Clone o repositório em sua máquina local.
+1 - Clone o repositório em sua máquina local.
 
-Implemente as melhorias ou correções desejadas no código.
+2 - Implemente as melhorias ou correções desejadas no código.
 
-Teste as alterações para garantir seu correto funcionamento.
+3 - Teste as alterações para garantir seu correto funcionamento.
 
-Envie um pull request para que suas contribuições sejam analisadas e incorporadas ao projeto.
+4 - Envie um pull request para que suas contribuições sejam analisadas e incorporadas ao projeto.
 
-Sua contribuição é muito bem-vinda!
+5 - Sua contribuição é muito bem-vinda!
 
-Observação: Este sistema de aluguel de apartamentos foi desenvolvido com finalidades educacionais e não representa um sistema de produção completo.
+### Observação: Este sistema de aluguel de apartamentos foi desenvolvido com finalidades educacionais e não representa um sistema de produção completo.
