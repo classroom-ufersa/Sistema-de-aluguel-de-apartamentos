@@ -10,21 +10,22 @@ Estrutura de Dados:
 
 A estrutura "Apartamento" possui os seguintes campos:
 
-Número do apartamento
-Disponibilidade do apartamento (indicando se está alugado ou vago)
-Valor do aluguel
-Localização
+Número do apartamento,
+Disponibilidade do apartamento (indicando se está alugado ou vago),
+Valor do aluguel,
+Localização,
 Inquilino associado ao apartamento (caso esteja alugado)
 
 A estrutura "Inquilino" é composta pelos seguintes campos:
 
-Nome
-RG
-CPF
-Data de entrada ou início do contrato
-Data de saída ou fim do contrato
-Número do apartamento alugado
-Funcionalidades do Sistema
+Nome,
+RG,
+CPF,
+Data de entrada ou início do contrato,
+Data de saída ou fim do contrato,
+Número do apartamento alugado,
+
+Funcionalidades do Sistema:
 
 O sistema oferece as seguintes funcionalidades:
 
